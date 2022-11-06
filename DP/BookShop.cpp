@@ -1,4 +1,5 @@
-//This Problem is just a variation of 0/1 knapsack we are not allowed to choose the same book again. I am used 0 based indexing !
+//This Problem is just a variation of 0/1 knapsack we are not allowed to choose the same book again. I used 0 based indexing and 2D vector to store the number of books
+// currently being used and j-> the total sum we achieved. These are the two states of dp[i][j] !
 #include<bits/stdc++.h>
 using namespace std ;
 void solve(){
