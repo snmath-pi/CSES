@@ -30,7 +30,7 @@ int main() {
 
     cout << dp[S]; // total ways to form sum S -> dp[S];
 
-    /* Note that it also counts disjoint sets forming the sum = S
+    /* Note that in Coin Combinations 1 it also counts disjoint sets forming the sum = S
     For Example: to form 9 -> (2 2 5 && 2 5 2) are counted as two separate ways.
     */
 
