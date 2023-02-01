@@ -12,7 +12,7 @@ int main() {
     int N;
     cin >> N;
     constexpr int MOD = 1e9 + 7;
-    dp[0] = 1;
+    dp[0] = 1; // the only way to form sum 0 is by not rolling the dice at all (1 way)
     for(int i=1; i<=N; i++) {
         // dp[i] -> the number of ways to form sum i
         // we have choices uptil min(i, number on the die);
